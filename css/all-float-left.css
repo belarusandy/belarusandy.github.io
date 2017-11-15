@@ -1,0 +1,7 @@
+#layout-container div {
+    float: left;
+}
+
+hr {
+    clear: both;
+}

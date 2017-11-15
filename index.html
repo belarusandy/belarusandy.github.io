@@ -1,23 +1,30 @@
 <!doctype html>
 
-<html lang="en"> <!-- default element content and attributes are in english -->
+<html lang="en">
     <head>
-        <meta charset="utf-8"> <!-- spesify the character encoding for the html doc -->
+        <meta charset="utf-8">
 
-        <title></title>
+        <title>Layout Modes</title>
         <meta name="decsription" content="">
         <meta name="author" content="BelarusAndy"> 
-	<link rel="shortcut icon" href="favicon.ico"/>
 
-        <link rel="stylesheet" href="css/styles.css?v=1.0">
     </head>
 
     <body>
-        <div id="gameArea">
-            <canvas id="gameCanvas"></canvas>
-            <div id="statsPanel"></div>
+        <div id="layout-container">
+            
+        </div>
+        <hr />
+        <div id="control-panel">
+            <input id="div-qty" type="number" value="5"> Number of DIVs
+            <ul id="css-files"></ul>
+            <button id="btn-apply">Apply</button>
         </div>
 
-        <script src="js/script.js"></script>
+        <div id="dyn-container">
+            <div id="static"></div>
+        </div>
+
+        <script src="js/app.js"></script>
     </body>
 </html>
