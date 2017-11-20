@@ -1,0 +1,28 @@
+div[id^="overlay_"] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.651);
+    color: rgb(242, 235, 34);
+    font-weight: bolder;
+}
+
+div[id^="overlay_"] a {
+    color: rgb(236, 128, 27);
+}
+
+div[id^="overlay_"] a[href="#"] {
+    color: rgb(253, 76, 45);
+}
+
+#control-panel input[type="checkbox"] {
+    margin-right: 22px;
+}
+#modificators ul {
+    float: left;
+}
+#modificators ul li {
+    margin-bottom: 14px;
+}

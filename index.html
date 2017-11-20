@@ -10,40 +10,15 @@
     <meta name="author" content="BelarusAndy">
 
     <link rel="stylesheet" data-static href="css/specific-classes.css">
-
-    <style>
-        input[type="checkbox"] {
-            margin-right: 16px;
-        }
-        #modificators ul {
-            float: left;
-        }
-        #modificators ul li {
-            margin-bottom: 8px;
-        }
-        span[data-div-class-label] {
-            margin-left: 8px;
-            font-weight: bold;
-        }
-    </style>
-
 </head>
 
 <body>
     <div id="layout-container">
-
     </div>
-    <hr />
+    
     <div id="control-panel">
-        <input id="div-qty" type="number" value="5"> Number of DIVs
-
-        <div id="modificators">
-            <ul id="css-files"></ul>
-            <ul id="js-functions"></ul>
-        </div>
-        <hr style="clear: both;" />
-        <button id="btn-apply">Apply</button>
     </div>
+    <button id="btn-overlay" style="position: fixed; bottom: 0; right: 0; z-index: 1;">Overlay switch</button>
 
     <script src="js/app.js"></script>
 </body>

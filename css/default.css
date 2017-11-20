@@ -6,3 +6,7 @@
     background-color: rgb(206, 160, 160);
 }
 
+#layout-container span[data-div-class-label] {
+    margin-left: 8px;
+    font-weight: bold;
+}
